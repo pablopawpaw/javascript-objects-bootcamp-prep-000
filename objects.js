@@ -20,7 +20,7 @@ function removeFromPlaylist(playlist, artistName) {
   return newPlaylist
 }
 
-removeFromPlaylist(playlist, 'GD')
+removeFromPlaylist(playlist, GD)
 console.log(playlist)
 
 delete playlist.IU
