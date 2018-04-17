@@ -4,3 +4,7 @@ var playlist = {
   CeeLoGr:'Fuck You'
   
 };
+
+function updatePlaylist(obj,key,value) {
+  
+}
