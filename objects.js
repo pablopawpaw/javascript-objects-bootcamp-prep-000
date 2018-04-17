@@ -13,7 +13,7 @@ function updatePlaylist(obj, key, value) {
   return updObj
 }
 
-updatePlaylist(playlist,NeYo,'So Sick')
+updatePlaylist(playlist,'NeYo','So Sick')
 console.log(playlist)
 
 function removeFromPlaylist(obj,key) {
