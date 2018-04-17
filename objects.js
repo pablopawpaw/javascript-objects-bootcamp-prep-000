@@ -16,8 +16,8 @@ updatePlaylist(playlist,'neyo','So Sick')
 console.log(playlist)
 
 function removeFromPlaylist(obj,key) {
-  var updObj = delete obj.key 
-  return updObj 
+  delete obj.key 
+  return obj
 }
 
 removeFromPlaylist(playlist,'neyo')
