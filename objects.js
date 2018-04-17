@@ -20,7 +20,7 @@ function removeFromPlaylist(obj,key) {
   return newObj
 }
 
-removeFromPlaylist(playlist,'neyo')
+removeFromPlaylist('neyo')
 console.log(playlist)
 
 delete playlist.neyo
