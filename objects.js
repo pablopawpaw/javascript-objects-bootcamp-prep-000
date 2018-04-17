@@ -15,9 +15,9 @@ function updatePlaylist(obj, key, value) {
 updatePlaylist(playlist,'neyo','So Sick')
 console.log(playlist)
 
-function removeFromPlaylist(obj, key) {
-  delete obj.key;
-  return obj
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist
 }
 
 removeFromPlaylist(playlist, 'neyo')
