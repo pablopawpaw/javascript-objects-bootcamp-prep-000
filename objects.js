@@ -16,11 +16,11 @@ updatePlaylist(playlist,'neyo','So Sick')
 console.log(playlist)
 
 function removeFromPlaylist(obj,key) {
-  delete obj.key 
-  return obj
+  newObj = delete obj.key 
+  return newObj
 }
 
-removeFromPlaylist(playlist,neyo)
+removeFromPlaylist(playlist,'neyo')
 console.log(playlist)
 
 delete playlist.neyo
