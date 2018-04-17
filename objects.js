@@ -23,6 +23,6 @@ function removeFromPlaylist(playlist, artistName) {
 removeFromPlaylist(playlist, 'IU')
 console.log(playlist)
 
-delete playlist.neyo
+delete playlist.IU
 console.log(playlist)
 
