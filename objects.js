@@ -12,6 +12,7 @@ function updatePlaylist(obj,key,value) {
   return obj
 }
 
+updatePlaylist(playlist,neyo,sosick)
 console.log(playlist)
 
 function removeFromPlaylist(obj,key) {
