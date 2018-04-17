@@ -21,5 +21,5 @@ function removeFromPlaylist(obj,key) {
   return obj 
 }
 
-removeFromPlaylist(playlist,NeYo)
+removeFromPlaylist(playlist,'NeYo')
 console.log(playlist)
