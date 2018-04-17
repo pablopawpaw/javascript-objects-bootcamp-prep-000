@@ -23,6 +23,6 @@ function removeFromPlaylist(obj,key) {
 removeFromPlaylist(playlist,'NeYo')
 console.log(playlist)
 
-delete playlist.Neyo
+delete playlist.NeYo
 console.log(playlist)
 
