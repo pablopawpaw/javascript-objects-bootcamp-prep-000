@@ -8,9 +8,9 @@ const playlist = {
 console.log(playlist)
 
 function updatePlaylist(obj, key, value) {
-  obj[key] = value
+  var updObj= obj[key] = value
  
-  return obj
+  return updObj
 }
 
 updatePlaylist(playlist,NeYo,'So Sick')
