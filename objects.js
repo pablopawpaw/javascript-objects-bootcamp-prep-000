@@ -16,8 +16,8 @@ updatePlaylist(playlist,'neyo','So Sick')
 console.log(playlist)
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName;
-  return playlist
+  newPlaylist = delete playlist.artistName;
+  return newPlaylist
 }
 
 removeFromPlaylist(playlist, 'IU')
